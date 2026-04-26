@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020FDCB0D9B2DA9B14D7DDFC /* ServiceMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C6CCB3E2F3E7A41057311 /* ServiceMapView.swift */; };
+		14A2EC6174648BA030B0002B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF3363CCC11A4F8D7CF744 /* HomeView.swift */; };
+		1C0F74B007BEB4154EEE0CD1 /* KhedmaLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287D1EB81B10BFFC187BD8D /* KhedmaLocalization.swift */; };
+		1E27F328D107A7FBA1CCF6B7 /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605DCFD72BD7189772F77437 /* AppPreferences.swift */; };
+		4885B8687F172C890345A30E /* KhedmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA1F4F0D0F3D8ABA736B8C /* KhedmaApp.swift */; };
+		5C2212B5DB1ABA1C69932EB6 /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A40031B3903EAD30562426 /* SupportView.swift */; };
+		86A80340490F94B07CDC077F /* WorkerDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9CB7B85FB959637F6928D6 /* WorkerDashboardView.swift */; };
+		88C5FE8A8670903CB8F25D79 /* KhedmaTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87ED5EEAE1194C08290E02A /* KhedmaTheme.swift */; };
+		8A3DAA2C075E719859D573FC /* BeautyBrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257DDAC2E1C370590D8EE138 /* BeautyBrowseView.swift */; };
+		8AD46627F157D1EC0A2925DD /* ProviderProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5996C593096558D00D5BE446 /* ProviderProfileView.swift */; };
+		9223C760977E93BDC3CC112C /* BookingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3090A3F5957A81671AC533 /* BookingFlowView.swift */; };
+		94B6E83BD349BFA2B6ED6B97 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CDAD58FC0968D27DD50249 /* MockData.swift */; };
+		955B81226C4B216E56692566 /* ProviderOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E16EBC06CC2C3613E6A236E /* ProviderOnboardingView.swift */; };
+		A3549D183B4DC9CCEC97BC80 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3A0C0B45BE5059A9F6FFF6 /* FavoritesView.swift */; };
+		A6B9B19401A8B2B440D75211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E79A62065759F58AB18F486 /* Assets.xcassets */; };
+		B21CE4F37AF9DFC3C2C3F967 /* KhedmaComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536B397B573674FF52E7781E /* KhedmaComponents.swift */; };
+		BFDE82A86547A31BD6E05902 /* AppOnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601F140E2D2CD465474484E8 /* AppOnboardingFlowView.swift */; };
+		C88B2DB8A711BA3965CDACFC /* KhedmaViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8348126119B8E6193B9EA2E /* KhedmaViewModels.swift */; };
+		CCA42662ABDCEBCFB335C10B /* WorkerVerificationFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0F3F8DAB9750E2F31F130 /* WorkerVerificationFlow.swift */; };
+		D7BE59671D8403D58C2D972D /* ProviderChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B224C2EE44312D5E42D100 /* ProviderChatView.swift */; };
+		DB843A274B6323D55C158161 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC37BDE9FC07C44E9D1E36A /* ProfileView.swift */; };
+		EA9AB68D32232EF614E6499D /* BookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9DA7E53B606572DDC7D018 /* BookingsView.swift */; };
+		EC0486EB809DE3D9EA22BA9D /* KhedmaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DE1527EEFF128E3154F748 /* KhedmaModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24C0F3F8DAB9750E2F31F130 /* WorkerVerificationFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerVerificationFlow.swift; sourceTree = "<group>"; };
+		257DDAC2E1C370590D8EE138 /* BeautyBrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyBrowseView.swift; sourceTree = "<group>"; };
+		2FC37BDE9FC07C44E9D1E36A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3F9CB7B85FB959637F6928D6 /* WorkerDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerDashboardView.swift; sourceTree = "<group>"; };
+		45DE1527EEFF128E3154F748 /* KhedmaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhedmaModels.swift; sourceTree = "<group>"; };
+		4E16EBC06CC2C3613E6A236E /* ProviderOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderOnboardingView.swift; sourceTree = "<group>"; };
+		536B397B573674FF52E7781E /* KhedmaComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhedmaComponents.swift; sourceTree = "<group>"; };
+		58465562424E12442AF5F1C1 /* Khedma.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Khedma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5996C593096558D00D5BE446 /* ProviderProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderProfileView.swift; sourceTree = "<group>"; };
+		5A3090A3F5957A81671AC533 /* BookingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingFlowView.swift; sourceTree = "<group>"; };
+		5E7C6CCB3E2F3E7A41057311 /* ServiceMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMapView.swift; sourceTree = "<group>"; };
+		601F140E2D2CD465474484E8 /* AppOnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOnboardingFlowView.swift; sourceTree = "<group>"; };
+		605DCFD72BD7189772F77437 /* AppPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
+		60A40031B3903EAD30562426 /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		65CDAD58FC0968D27DD50249 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		6AFA1F4F0D0F3D8ABA736B8C /* KhedmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhedmaApp.swift; sourceTree = "<group>"; };
+		7E79A62065759F58AB18F486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94BF3363CCC11A4F8D7CF744 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B2151AF1AF839F90674710CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B87ED5EEAE1194C08290E02A /* KhedmaTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhedmaTheme.swift; sourceTree = "<group>"; };
+		D287D1EB81B10BFFC187BD8D /* KhedmaLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhedmaLocalization.swift; sourceTree = "<group>"; };
+		E1B224C2EE44312D5E42D100 /* ProviderChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderChatView.swift; sourceTree = "<group>"; };
+		E8348126119B8E6193B9EA2E /* KhedmaViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhedmaViewModels.swift; sourceTree = "<group>"; };
+		FC9DA7E53B606572DDC7D018 /* BookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsView.swift; sourceTree = "<group>"; };
+		FF3A0C0B45BE5059A9F6FFF6 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0718E8B0B64304B9554BC31E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				605DCFD72BD7189772F77437 /* AppPreferences.swift */,
+				6AFA1F4F0D0F3D8ABA736B8C /* KhedmaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3C1CCF6E335342E84EF2B4B6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				536B397B573674FF52E7781E /* KhedmaComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		42DE3F684AE91E239C662094 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				5A3090A3F5957A81671AC533 /* BookingFlowView.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		677D85215DBA261604740B81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58465562424E12442AF5F1C1 /* Khedma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D0FFC6AB4DE2533441ED694 /* Beauty */ = {
+			isa = PBXGroup;
+			children = (
+				257DDAC2E1C370590D8EE138 /* BeautyBrowseView.swift */,
+			);
+			path = Beauty;
+			sourceTree = "<group>";
+		};
+		753F816E0E9527FD6526AA91 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				601F140E2D2CD465474484E8 /* AppOnboardingFlowView.swift */,
+				4E16EBC06CC2C3613E6A236E /* ProviderOnboardingView.swift */,
+				24C0F3F8DAB9750E2F31F130 /* WorkerVerificationFlow.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		7708D30E1494EF2D994A16B6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				6D0FFC6AB4DE2533441ED694 /* Beauty */,
+				42DE3F684AE91E239C662094 /* Booking */,
+				F99A3CC63278A545461A922A /* Bookings */,
+				CED2EBFCEF50CC6BE4744C42 /* Communication */,
+				DB056446B9393A60D46A05CD /* Favorites */,
+				B1E310A8C6375D4B4B8F8E10 /* Home */,
+				753F816E0E9527FD6526AA91 /* Onboarding */,
+				9F78B9C1E28E4781BDD09DBF /* Profile */,
+				912FA74F573E50A222132C14 /* Provider */,
+				8E3F7F615F050E4A40837427 /* Support */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7AA34D45E5F2CFCE237A30F0 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D287D1EB81B10BFFC187BD8D /* KhedmaLocalization.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		8E3F7F615F050E4A40837427 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				60A40031B3903EAD30562426 /* SupportView.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		912FA74F573E50A222132C14 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				5996C593096558D00D5BE446 /* ProviderProfileView.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		9C342FD8918F6172E79A751B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45DE1527EEFF128E3154F748 /* KhedmaModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F78B9C1E28E4781BDD09DBF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2FC37BDE9FC07C44E9D1E36A /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B1E310A8C6375D4B4B8F8E10 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				94BF3363CCC11A4F8D7CF744 /* HomeView.swift */,
+				5E7C6CCB3E2F3E7A41057311 /* ServiceMapView.swift */,
+				3F9CB7B85FB959637F6928D6 /* WorkerDashboardView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB9C7F2AD0473B1C22E51C7B /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B87ED5EEAE1194C08290E02A /* KhedmaTheme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		CED2EBFCEF50CC6BE4744C42 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				E1B224C2EE44312D5E42D100 /* ProviderChatView.swift */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		DB056446B9393A60D46A05CD /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A0C0B45BE5059A9F6FFF6 /* FavoritesView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		E705534E90601D0D90788D65 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7E79A62065759F58AB18F486 /* Assets.xcassets */,
+				B2151AF1AF839F90674710CF /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		EB76F65B4D82733FD435A640 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				65CDAD58FC0968D27DD50249 /* MockData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F6D317C3590AF90C48D7D88E = {
+			isa = PBXGroup;
+			children = (
+				FBDDBBE113BF0CCEF5A41FAE /* Khedma */,
+				677D85215DBA261604740B81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F99A3CC63278A545461A922A /* Bookings */ = {
+			isa = PBXGroup;
+			children = (
+				FC9DA7E53B606572DDC7D018 /* BookingsView.swift */,
+			);
+			path = Bookings;
+			sourceTree = "<group>";
+		};
+		FAB76597F9DD200BAEB5E696 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E8348126119B8E6193B9EA2E /* KhedmaViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FBDDBBE113BF0CCEF5A41FAE /* Khedma */ = {
+			isa = PBXGroup;
+			children = (
+				0718E8B0B64304B9554BC31E /* App */,
+				3C1CCF6E335342E84EF2B4B6 /* Components */,
+				EB76F65B4D82733FD435A640 /* Data */,
+				CB9C7F2AD0473B1C22E51C7B /* DesignSystem */,
+				7708D30E1494EF2D994A16B6 /* Features */,
+				7AA34D45E5F2CFCE237A30F0 /* Localization */,
+				9C342FD8918F6172E79A751B /* Models */,
+				E705534E90601D0D90788D65 /* Support */,
+				FAB76597F9DD200BAEB5E696 /* ViewModels */,
+			);
+			path = Khedma;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C350293F6336ED37F9FD3D85 /* Khedma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E36608AA2F792B76AE2B10 /* Build configuration list for PBXNativeTarget "Khedma" */;
+			buildPhases = (
+				C0BC7C3337BAF7EE8932C4A0 /* Sources */,
+				F1C4CA906A1577D719478625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Khedma;
+			packageProductDependencies = (
+			);
+			productName = Khedma;
+			productReference = 58465562424E12442AF5F1C1 /* Khedma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D166D94DA07357DF8468F04F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C350293F6336ED37F9FD3D85 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1763F796089C0D1B0CF58710 /* Build configuration list for PBXProject "Khedma" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F6D317C3590AF90C48D7D88E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 677D85215DBA261604740B81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C350293F6336ED37F9FD3D85 /* Khedma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C4CA906A1577D719478625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B9B19401A8B2B440D75211 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0BC7C3337BAF7EE8932C4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDE82A86547A31BD6E05902 /* AppOnboardingFlowView.swift in Sources */,
+				1E27F328D107A7FBA1CCF6B7 /* AppPreferences.swift in Sources */,
+				8A3DAA2C075E719859D573FC /* BeautyBrowseView.swift in Sources */,
+				9223C760977E93BDC3CC112C /* BookingFlowView.swift in Sources */,
+				EA9AB68D32232EF614E6499D /* BookingsView.swift in Sources */,
+				A3549D183B4DC9CCEC97BC80 /* FavoritesView.swift in Sources */,
+				14A2EC6174648BA030B0002B /* HomeView.swift in Sources */,
+				4885B8687F172C890345A30E /* KhedmaApp.swift in Sources */,
+				B21CE4F37AF9DFC3C2C3F967 /* KhedmaComponents.swift in Sources */,
+				1C0F74B007BEB4154EEE0CD1 /* KhedmaLocalization.swift in Sources */,
+				EC0486EB809DE3D9EA22BA9D /* KhedmaModels.swift in Sources */,
+				88C5FE8A8670903CB8F25D79 /* KhedmaTheme.swift in Sources */,
+				C88B2DB8A711BA3965CDACFC /* KhedmaViewModels.swift in Sources */,
+				94B6E83BD349BFA2B6ED6B97 /* MockData.swift in Sources */,
+				DB843A274B6323D55C158161 /* ProfileView.swift in Sources */,
+				D7BE59671D8403D58C2D972D /* ProviderChatView.swift in Sources */,
+				955B81226C4B216E56692566 /* ProviderOnboardingView.swift in Sources */,
+				8AD46627F157D1EC0A2925DD /* ProviderProfileView.swift in Sources */,
+				020FDCB0D9B2DA9B14D7DDFC /* ServiceMapView.swift in Sources */,
+				5C2212B5DB1ABA1C69932EB6 /* SupportView.swift in Sources */,
+				86A80340490F94B07CDC077F /* WorkerDashboardView.swift in Sources */,
+				CCA42662ABDCEBCFB335C10B /* WorkerVerificationFlow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		176882F07EB138C3CAF382DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yassirdembri.khedma;
+				PRODUCT_NAME = Khedma;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		833B0B733860B8501D4AB3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yassirdembri.khedma;
+				PRODUCT_NAME = Khedma;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1D3984AFA72821CDBE38AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Khedma/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA511D7C1032BBBC630DAFCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Khedma/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1763F796089C0D1B0CF58710 /* Build configuration list for PBXProject "Khedma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833B0B733860B8501D4AB3B7 /* Debug */,
+				176882F07EB138C3CAF382DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		50E36608AA2F792B76AE2B10 /* Build configuration list for PBXNativeTarget "Khedma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D3984AFA72821CDBE38AF6 /* Debug */,
+				FA511D7C1032BBBC630DAFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D166D94DA07357DF8468F04F /* Project object */;
+}
